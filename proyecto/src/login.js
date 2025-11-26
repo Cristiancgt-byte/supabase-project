@@ -53,5 +53,7 @@ export function mostrarLogin() {
     // ✅ Usuario autenticado
     const usuario = data.user;
     console.log('Usuario logueado:', usuario);
+
+    location.reload()
   });
 }

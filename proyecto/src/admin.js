@@ -45,6 +45,13 @@ export async function mostrarAdmin() {
         return;
     }
 
+    if (user.email !== "cristian.gambat@uniagutiniana.edu.co") {
+    app.innerHTML = `
+        <p>⛔ No tienes permisos para acceder a este panel.</p>
+    `;
+    return;
+}
+
     estudiantesDiv.innerHTML = `
 <h3>‍ Lista de Estudiantes</h3>
 ${
