@@ -5,9 +5,7 @@ import { mostrarMVP } from './mvp.js';
 import { mostrarUser } from './user.js';
 import { mostrarAdmin } from './admin.js';
 
-
 mostrarAdmin();
-
 
 // Funciones de navegación disponibles para ser llamadas
 const routes = {
